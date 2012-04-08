@@ -463,8 +463,6 @@ blockquote.pull-left{
 	padding-right: 15px;
 }
 
-
-
 @media only screen and (min-width: 940px) {
 	body{
 		padding-top: 60px;
@@ -546,8 +544,18 @@ blockquote.pull-left{
 		padding-right: 0;
 	}
 }
-/* Tuneado por mi para que funcione el syntaxhighlighter*/
-code {display: inline;}
+
+/*  Added to keep SyntaxHighlighter working*/
+code {
+	border: none;
+	color: #333;
+	font-size: 14px;
+	display: inline;
+}
+
+td.code .container:before, td.code .container:after {
+ content: none;
+}
 
 .syntaxhighlighter {
 	overflow-x: none;
@@ -557,5 +565,10 @@ code {display: inline;}
 .syntaxhighlighter .line {
     white-space: pre !important;
 }
-/* fin del tunning */
+
+/* Custom formatting for koalite.com */
+p, li {
+ line-height: 140%;
+ font-size: 14px;
+}
 
