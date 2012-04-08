@@ -265,7 +265,7 @@ ol.commentlist a.comment-edit-link{
 
 ol.commentlist span.edit-comment{
 	position: absolute;
-	right: 0;
+	right: 10px;
 	top: 8px;
 }
 
@@ -276,26 +276,14 @@ ol.commentlist li.bypostauthor{
 	border-radius: 3px;
 }
 
-ol.commentlist ul.children li{
-	background-color: #cccccc;
-}
-
-ol.commentlist ul.children li ul.children li{
-	background-color: #bbbbbb;
-}
-
-ol.commentlist ul.children li ul.children li ul.children li{
-	background-color: #aaaaaa;
-}
-
-ol.commentlist article{
-	border-bottom: none !important;
-}
-
 a.comment-reply-link{
 	position: absolute;
 	right: 0;
 	bottom: 0;
+}
+
+#cancel-comment-reply{
+	padding-left: 20px;
 }
 
 #comment-nav ul{
@@ -329,21 +317,8 @@ ol.commentlist li{
 	background-color: #F0F0F0;
 }
 
-#pings{
-	margin-bottom: 9px;
-}
-
-ol.pinglist{
-	list-style-type: none;
-	margin: 0 0 9px 0;
-}
-
 #comment{
 	width: 270px;
-}
-
-ol.commentlist #respond{
-	padding: 5px 10px;
 }
 
 /* specific post-type styles */
@@ -571,3 +546,16 @@ blockquote.pull-left{
 		padding-right: 0;
 	}
 }
+/* Tuneado por mi para que funcione el syntaxhighlighter*/
+code {display: inline;}
+
+.syntaxhighlighter {
+	overflow-x: none;
+	overflow-y: auto;
+}
+
+.syntaxhighlighter .line {
+    white-space: pre !important;
+}
+/* fin del tunning */
+

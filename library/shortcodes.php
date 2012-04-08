@@ -33,7 +33,7 @@ function gallery_shortcode_tbs($attr) {
 function buttons( $atts, $content = null ) {
 	extract( shortcode_atts( array(
 	'type' => 'default', /* primary, default, info, success, danger, warning, inverse */
-	'size' => 'default', /* mini, small, default, large */
+	'size' => 'medium', /* small, medium, large */
 	'url'  => '',
 	'text' => '', 
 	), $atts ) );
@@ -45,7 +45,7 @@ function buttons( $atts, $content = null ) {
 		$type = "btn-" . $type;
 	}
 	
-	if($size == "default"){
+	if($size == "medium"){
 		$size = "";
 	}
 	else{

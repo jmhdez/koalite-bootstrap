@@ -88,7 +88,7 @@
     $('body').on('click.alert.data-api', dismiss, Alert.prototype.close)
   })
 
-}( window.jQuery );
+}( window.jQuery )
 /*
 Bones Scripts File
 Author: Eddie Machado
@@ -245,7 +245,7 @@ Modernizr.load([
     })
   })
 
-}( window.jQuery );
+}( window.jQuery )
 
 
 /* ============================================================
@@ -303,7 +303,7 @@ Modernizr.load([
 
       isActive = $parent.hasClass('open')
 
-      clearMenus();
+      clearMenus()
       !isActive && $parent.toggleClass('open')
 
       return false
@@ -387,12 +387,7 @@ $(document).ready(function() {
 	});
 	
 	$("ol.commentlist a.comment-reply-link").each(function() {
-		$(this).addClass('btn btn-success btn-mini');
-		return true;
-	});
-	
-	$('#cancel-comment-reply-link').each(function() {
-		$(this).addClass('btn btn-danger btn-mini');
+		$(this).addClass('btn btn-success btn-small');
 		return true;
 	});
 	
