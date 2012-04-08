@@ -421,9 +421,6 @@ li.previous a:hover:before{
 	padding-left: 0;
 }
 
-.widget_search input{
-	width: 121px;
-}
 
 /* calendar widget */
 
@@ -505,10 +502,6 @@ blockquote.pull-left{
 		margin-top: 0 !important;
 	}
 	
-	.widget_search input{
-		width: 230px;
-	}
-	
 	.blog .hero-unit{
 		margin-top: 10px;
 	}
@@ -535,9 +528,7 @@ blockquote.pull-left{
 		width: 210px;
 	}
 	
-	.widget_search input{
-		width: 203px;
-	}
+
 	
 	.comment .vcard .comment-text{
 		padding-left: 0;
