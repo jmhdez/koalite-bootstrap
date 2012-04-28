@@ -39,7 +39,7 @@
 						</header> <!-- end article header -->
 					
 						<section class="post_content clearfix">
-							<?php the_content( __("Read more &raquo;","bonestheme") ); ?>
+							<?php the_content( __("Leer más &raquo;","bonestheme") ); ?>
 						</section> <!-- end article section -->
 						
 						<footer>
