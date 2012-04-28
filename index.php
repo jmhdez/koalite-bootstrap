@@ -31,7 +31,8 @@
 							<div class="page-header">
 								<h1 class="h2">
 									<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-									<br/>
+								</h1>
+								<h1>
 									<small><time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_date(); ?></time> | Categor&iacute;a: <?php the_category(', '); ?></small>
 								</h1>
 								
