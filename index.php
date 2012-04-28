@@ -34,8 +34,7 @@
 								</h1>
 								<h1>
 									<small><time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_date(); ?></time> | Categor&iacute;a: <?php the_category(', '); ?></small>
-								</h1>
-								
+								</h1>								
 							</div>
 						</header> <!-- end article header -->
 					
