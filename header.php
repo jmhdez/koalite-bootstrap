@@ -231,41 +231,7 @@
 	</head>
 	
 	<body <?php body_class(); ?>>
-				
-		<header role="banner">
-		
-			<div id="inner-header" class="clearfix">
-				
-				<div class="navbar navbar-fixed-top">
-					<div class="navbar-inner">
-						<div class="container-fluid nav-container">
-							<nav role="navigation">
-								<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
-								
-								<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-							        <span class="icon-bar"></span>
-							        <span class="icon-bar"></span>
-							        <span class="icon-bar"></span>
-								</a>
-								
-								<div class="nav-collapse">
-									<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
-								</div>
-								
-							</nav>
-							
-							<?php if(of_get_option('search_bar', '1')) {?>
-							<form class="navbar-search pull-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
-								<input name="s" id="s" type="text" class="search-query" placeholder="<?php _e('Search','bonestheme'); ?>">
-							</form>
-							<?php } ?>
-							
-						</div>
-					</div>
-				</div>
-			
-			</div> <!-- end #inner-header -->
-		
-		</header> <!-- end header -->
-		
+
+			TODO: ADD HERE BLOG HEADER
+	
 		<div class="container-fluid">
