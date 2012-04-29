@@ -412,7 +412,6 @@ li.previous a:hover:before{
 
 #tag-cloud a{
 	white-space: pre;
-	text-transform: uppercase;
 }
 
 /* change default form padding for search */
