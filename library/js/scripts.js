@@ -351,6 +351,8 @@ func();}}}}
 // as the page loads, cal these scripts
 $(document).ready(function() {
 
+	$("p.tags a").addClass("label");
+
 	$("ol.commentlist a.comment-reply-link").each(function() {
 		$(this).addClass('btn btn-success btn-small');
 		return true;
