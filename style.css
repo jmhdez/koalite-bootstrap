@@ -459,6 +459,17 @@ blockquote.pull-left{
 	padding-right: 15px;
 }
 
+#inner-footer {
+	text-align: center;
+	color: #888;
+	font-size: 9px;
+}
+
+#inner-footer a {
+	color: #888;
+	text-decoration: underline;
+}
+
 @media only screen and (min-width: 940px) {
 	body{
 		padding-top: 60px;

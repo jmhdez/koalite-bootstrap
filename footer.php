@@ -15,10 +15,13 @@
 						<?php bones_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 					</nav>
 					
-					<p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>
+					<p class="attribution">
+						&copy; <?php echo date("Y") ?> Juan M. Hern&aacute;ndez | powered by <a href="http://wordpress.org/">WordPress</a> | Theme based on <a href="http://320press.com/wpbs/">WordPress Bootstrap</a> | <a href="<?php bloginfo('rss2_url'); ?>">Feed RSS</a>.
+					</p>
+					
+					<p> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+			</p>			
 			
-					<p class="attribution">&copy; <?php bloginfo('name'); ?></p>
-				
 				</div> <!-- end #inner-footer -->
 				
 			</footer> <!-- end footer -->
