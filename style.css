@@ -573,4 +573,15 @@ p, li {
  font-size: 14px;
 }
 
+.aligncenter {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.wp-caption-text {
+	font-size: 12px;
+	color: #666;
+	font-style: italic;
+}
+
 
