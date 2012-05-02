@@ -33,8 +33,17 @@
 						<footer>
 
 							<hr>
-
-							<?php the_tags('<p class="tags"><span class="tags-title">' . __("Tags","bonestheme") . ':</span> ', ' ', '</p>'); ?>
+							
+							<p class="tags aligncenter">
+								Tags: 
+								<?
+									foreach (get_the_tags() as $tag) {
+										echo "<a class='{$tag->slug} label' title='" . ucwords($tag->name)
+											."' href='" .get_tag_link($tag->term_id) . "'>" 
+											. "{$tag->name}</a>\n";
+									}
+								?>
+							</p>
 							
 							<div class="row-fluid">
 								<div class="span6">
