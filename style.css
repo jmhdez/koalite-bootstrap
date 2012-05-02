@@ -583,6 +583,10 @@ p, li {
 	margin: 0 auto;
 }
 
+.alignright {
+	text-align: right;
+}
+
 .wp-caption-text {
 	font-size: 12px;
 	color: #666;
