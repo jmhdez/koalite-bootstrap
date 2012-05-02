@@ -403,12 +403,6 @@ li.previous a:hover:before{
 	text-transform: uppercase;
 }
 
-/* override standard link hover for the tag cloud widget */
-#tag-cloud a:hover,
-.tags a:hover{
-	color: #ffffff;
-	text-decoration: none;
-}
 
 #tag-cloud a{
 	white-space: pre;
@@ -596,6 +590,15 @@ p, li {
 section.post_content h3 {
 	margin-top: 15px;
 	margin-bottom: 10px;
+}
+
+a {
+	color: #a02;
+}
+
+a:hover {
+	color: #d02;
+	text-decoration: underlined;
 }
 
 
