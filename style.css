@@ -593,4 +593,9 @@ p, li {
 	font-style: italic;
 }
 
+section.post_content h3 {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
 
