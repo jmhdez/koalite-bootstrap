@@ -47,10 +47,10 @@
 							
 							<div class="row-fluid">
 								<div class="span6">
-									&laquo; Anterior</br><?php previous_post('%', '', 'yes'); ?>
+									<?php previous_post('&laquo; Anterior</br>%', '', 'yes'); ?>
 								</div>
 								<div class="span6 alignright">
-									Siguiente &raquo;<br/><?php next_post('%', '', 'yes'); ?>
+									<?php next_post('Siguiente &raquo;<br/>%', '', 'yes'); ?>
 								</div>
 							</div>
 
