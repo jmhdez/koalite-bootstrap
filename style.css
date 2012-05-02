@@ -552,6 +552,7 @@ code {
 	color: #333;
 	font-size: 14px;
 	display: inline;
+	font-family: Consolas, 'Lucida Console', Courier New
 }
 
 td.code .container:before, td.code .container:after {
@@ -568,6 +569,10 @@ td.code .container:before, td.code .container:after {
 }
 
 /* Custom formatting for koalite.com */
+body, h1, h2, h3, h4, h5, h6, p, li {
+	font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
 p, li {
  line-height: 140%;
  font-size: 14px;
