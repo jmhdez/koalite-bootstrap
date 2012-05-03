@@ -21,7 +21,16 @@
 						
 						<footer>
 			
-							<?php the_tags('<p class="tags"><span class="tags-title">' . __("Tags","bonestheme") . ':</span> ', ', ', '</p>'); ?>
+						<p class="tags">
+								M&aacute;s posts sobre...
+								<?
+									foreach (get_the_tags() as $tag) {
+										echo "<a class='{$tag->slug} label' title='" . ucwords($tag->name)
+											."' href='" .get_tag_link($tag->term_id) . "'>" 
+											. "{$tag->name}</a>\n";
+									}
+								?>
+						</p>
 							
 						</footer> <!-- end article footer -->
 					

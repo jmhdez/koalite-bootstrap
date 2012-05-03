@@ -34,8 +34,8 @@
 
 							<hr>
 							
-							<p class="tags aligncenter">
-								Tags: 
+							<p class="tags">
+								M&aacute;s posts sobre... 
 								<?
 									foreach (get_the_tags() as $tag) {
 										echo "<a class='{$tag->slug} label' title='" . ucwords($tag->name)
