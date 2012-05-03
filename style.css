@@ -596,8 +596,9 @@ a {
 	color: #a02;
 	text-decoration: none;
 }
-/* Remarco un poco los enlaces en los cuerpos de los posts */
+
 .post_content a {
+	/* Remarco un poco los enlaces en los cuerpos de los posts */
 	border-bottom: 1px dotted #a02;
 }
 
@@ -605,4 +606,10 @@ a:hover {
 	color: #d02;
 	text-decoration: none;
 	border-bottom: 1px solid #d02;
+}
+
+/* Los títulos de los posts no los quiero en rojo */
+.post h1 a[rel="bookmark"], .post h1 a[rel="bookmark"]:hover {
+	color: #444;
+	border-bottom: none;
 }
