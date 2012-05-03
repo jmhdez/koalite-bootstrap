@@ -613,3 +613,31 @@ a:hover {
 	color: #444;
 	border-bottom: none;
 }
+
+/* Formato especial para botones */
+.btn-koalite, 
+.btn-koalite:hover { 
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); 
+    color: #ffffff; 
+} 
+.btn-koalite { 
+	background-color: #AA0022; 
+	background-image: -moz-linear-gradient(top, #AA0022, #85001B); 
+	background-image: -ms-linear-gradient(top, #AA0022, #85001B); 
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#AA0022), to(#85001B)); 
+	background-image: -webkit-linear-gradient(top, #AA0022, #85001B); 
+	background-image: -o-linear-gradient(top, #AA0022, #85001B); 
+	background-image: linear-gradient(top, #AA0022, #85001B); 
+	background-repeat: repeat-x; 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#AA0022', endColorstr='#85001B', GradientType=0); 
+	border-color: #85001B #85001B #000000; 
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); 
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); 
+} 
+.btn-koalite:hover, 
+.btn-koalite:active, 
+.btn-koalite.active, 
+.btn-koalite.disabled, 
+.btn-koalite[disabled] { 
+	background-color: #85001B; 
+}

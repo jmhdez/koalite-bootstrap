@@ -42,7 +42,7 @@
 						
 						<footer>
 							<p class="postmetadata"><?php edit_post_link('Edit', '', ' | '); ?>  
-							<?php comments_popup_link('Add comment', '1 Comment &raquo;', '% Comments &raquo;', 'btn btn-primary'); ?></p>
+							<?php comments_popup_link('Add comment', '1 Comment &raquo;', '% Comments &raquo;', 'btn btn-koalite'); ?></p>
 							<p class="tags">
 								M&aacute;s posts sobre... 
 								<?
