@@ -231,7 +231,20 @@
 	</head>
 	
 	<body <?php body_class(); ?>>
-
-			TODO: ADD HERE BLOG HEADER
 	
 		<div class="container-fluid">
+			
+			<style>
+				.blog-header h1 {
+					font-size: 48px;
+				}
+			</style>
+			
+			<header class="row-fluid blog-header">
+				<a href="<?php echo home_url(); ?>/">
+					<h1>Koalite's Blog</h1>
+					<h1><small>El c&oacute;digo importa, pero el contexto m&aacute;s</small></h1>
+				</a>
+				<hr>
+			</header>
+		
