@@ -594,11 +594,15 @@ section.post_content h3 {
 
 a {
 	color: #a02;
+	text-decoration: none;
+}
+/* Remarco un poco los enlaces en los cuerpos de los posts */
+.post_content a {
+	border-bottom: 1px dotted #a02;
 }
 
 a:hover {
 	color: #d02;
-	text-decoration: underlined;
+	text-decoration: none;
+	border-bottom: 1px solid #d02;
 }
-
-
