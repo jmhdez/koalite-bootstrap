@@ -392,8 +392,19 @@ class description_walker extends Walker_Nav_Menu
 
 add_editor_style('editor-style.css');
 
+function bootstrap_tags() {
+	$the_tags = get_the_tags();
+							
+	if ($the_tags) {
+		echo "<p class='tags'>" . "M&aacute;s posts sobre... ";
 
-
-
-
+		foreach (get_the_tags() as $tag) {
+			echo "<a class='{$tag->slug} label' title='" . ucwords($tag->name)
+				."' href='" .get_tag_link($tag->term_id) . "'>" 
+				. "{$tag->name}</a>\n";
+		}
+		
+		echo "</p>";
+	}
+}
 ?>

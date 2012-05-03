@@ -34,16 +34,7 @@
 
 							<hr>
 							
-							<p class="tags">
-								M&aacute;s posts sobre... 
-								<?
-									foreach (get_the_tags() as $tag) {
-										echo "<a class='{$tag->slug} label' title='" . ucwords($tag->name)
-											."' href='" .get_tag_link($tag->term_id) . "'>" 
-											. "{$tag->name}</a>\n";
-									}
-								?>
-							</p>
+							<?php bootstrap_tags() ?>
 							
 							<div class="row-fluid">
 								<div class="span6">

@@ -43,17 +43,8 @@
 						<footer>
 							<p class="postmetadata"><?php edit_post_link('Edit', '', ' | '); ?>  
 							<?php comments_popup_link('Add comment', '1 Comment &raquo;', '% Comments &raquo;', 'btn btn-koalite'); ?></p>
-							<p class="tags">
-								M&aacute;s posts sobre... 
-								<?
-									foreach (get_the_tags() as $tag) {
-										echo "<a class='{$tag->slug} label' title='" . ucwords($tag->name)
-											."' href='" .get_tag_link($tag->term_id) . "'>" 
-											. "{$tag->name}</a>\n";
-									}
-								?>
-							</p>
 							
+							<?php bootstrap_tags(); ?>
 						</footer> <!-- end article footer -->
 					
 					</article> <!-- end article -->
