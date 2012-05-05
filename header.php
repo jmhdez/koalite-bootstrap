@@ -242,8 +242,7 @@
 			
 			<header class="row-fluid blog-header">
 				<a href="<?php echo home_url(); ?>/">
-					<h1>Koalite's Blog</h1>
-					<h1><small>El c&oacute;digo importa, pero el contexto m&aacute;s</small></h1>
+					<h1>Koalite <small>El c&oacute;digo importa, pero el contexto m&aacute;s</small></h1>
 				</a>
 				<hr>
 			</header>
