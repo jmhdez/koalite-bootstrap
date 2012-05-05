@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+﻿<?php get_header(); ?>
 			
 			<div id="content" class="clearfix row-fluid">
 			
@@ -65,10 +65,10 @@
 					
 					<article id="post-not-found">
 					    <header>
-					    	<h1><?php _e("Not Found", "bonestheme"); ?></h1>
+					    	<h1><?php _e("Artículo no encontrado", "bonestheme"); ?></h1>
 					    </header>
 					    <section class="post_content">
-					    	<p><?php _e("Sorry, but the requested resource was not found on this site.", "bonestheme"); ?></p>
+					    	<p><?php _e("No encuentro por ningún sitio ese artículo, lo siento. ¡Suerte la próxima vez!", "bonestheme"); ?></p>
 					    </section>
 					    <footer>
 					    </footer>

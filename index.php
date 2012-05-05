@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+﻿<?php get_header(); ?>
 			
 			<?php
 				$blog_hero = of_get_option('blog_hero');
@@ -42,7 +42,7 @@
 						
 						<footer>
 							<p class="postmetadata"><?php edit_post_link('Edit', '', ' | '); ?>  
-							<?php comments_popup_link('Add comment', '1 Comment &raquo;', '% Comments &raquo;', 'btn btn-koalite'); ?></p>
+							<?php comments_popup_link('Añadir comentario', '1 comentario &raquo;', '% comenarios &raquo;', 'btn btn-koalite'); ?></p>
 							
 							<?php bootstrap_tags(); ?>
 						</footer> <!-- end article footer -->
@@ -60,8 +60,8 @@
 					<?php } else { // if it is disabled, display regular wp prev & next links ?>
 						<nav class="wp-prev-next">
 							<ul class="clearfix">
-								<li class="prev-link"><?php next_posts_link(_e('&laquo; Older Entries', "bonestheme")) ?></li>
-								<li class="next-link"><?php previous_posts_link(_e('Newer Entries &raquo;', "bonestheme")) ?></li>
+								<li class="prev-link"><?php next_posts_link(_e('&laquo; Anteriores', "bonestheme")) ?></li>
+								<li class="next-link"><?php previous_posts_link(_e('Siguientes &raquo;', "bonestheme")) ?></li>
 							</ul>
 						</nav>
 					<?php } ?>		
@@ -70,10 +70,10 @@
 					
 					<article id="post-not-found">
 					    <header>
-					    	<h1><?php _e("Not Found", "bonestheme"); ?></h1>
+					    	<h1><?php _e("No he encontrado nada", "bonestheme"); ?></h1>
 					    </header>
 					    <section class="post_content">
-					    	<p><?php _e("Sorry, but the requested resource was not found on this site.", "bonestheme"); ?></p>
+					    	<p><?php _e("Lo siento, pero sea lo que sea lo que estés buscando, no lo encuentro.", "bonestheme"); ?></p>
 					    </section>
 					    <footer>
 					    </footer>

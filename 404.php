@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+﻿<?php get_header(); ?>
 			
 			<div id="content" class="clearfix row-fluid">
 			
@@ -8,13 +8,13 @@
 						
 						<header>
 							
-							<div class="page-header"><h1>Epic 404 - Article Not Found</h1></div>
+							<div class="page-header"><h1>Epic 404 - Artículo no encontrado</h1></div>
 						
 						</header> <!-- end article header -->
 					
 						<section class="post_content">
 							
-							<p>The article you were looking for was not found, but maybe try looking again!</p>
+							<p>No tengo ni idea de dónde está lo que estabas buscando, lo siento. ¡Suerte la próxima vez!</p>
 					
 						</section> <!-- end article section -->
 						

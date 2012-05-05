@@ -1,11 +1,11 @@
-<?php get_header(); ?>
+﻿<?php get_header(); ?>
 			
 			<div id="content" class="clearfix row-fluid">
 			
 				<div id="main" class="span8 clearfix" role="main">
 				
 					<div class="page-header"><h1 class="archive_title h2">
-						<span><?php _e("Posts By:", "bonestheme"); ?></span> 
+						<span><?php _e("Posts de:", "bonestheme"); ?></span> 
 						<?php 
 							// If google profile field is filled out on author profile, link the author's page to their google+ profile page
 							$curauth = (get_query_var('author_name')) ? get_user_by('slug', get_query_var('author_name')) : get_userdata(get_query_var('author'));
@@ -28,7 +28,7 @@
 							
 							<h3 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
 							
-							<p class="meta"><?php _e("Posted", "bonestheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_date(); ?></time> <?php _e("by", "bonestheme"); ?> <?php the_author_posts_link(); ?> <span class="amp">&</span> <?php _e("filed under", "bonestheme"); ?> <?php the_category(', '); ?>.</p>
+							<p class="meta"><?php _e("Publicado", "bonestheme"); ?> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_date(); ?></time> <?php _e("por", "bonestheme"); ?> <?php the_author_posts_link(); ?> <span class="amp">&</span> <?php _e("en la categoría de", "bonestheme"); ?> <?php the_category(', '); ?>.</p>
 						
 						</header> <!-- end article header -->
 					
@@ -55,8 +55,8 @@
 					<?php } else { // if it is disabled, display regular wp prev & next links ?>
 						<nav class="wp-prev-next">
 							<ul class="clearfix">
-								<li class="prev-link"><?php next_posts_link(_e('&laquo; Older Entries', "bonestheme")) ?></li>
-								<li class="next-link"><?php previous_posts_link(_e('Newer Entries &raquo;', "bonestheme")) ?></li>
+								<li class="prev-link"><?php next_posts_link(_e('&laquo; Anteriores', "bonestheme")) ?></li>
+								<li class="next-link"><?php previous_posts_link(_e('Siguientes &raquo;', "bonestheme")) ?></li>
 							</ul>
 						</nav>
 					<?php } ?>
@@ -66,10 +66,10 @@
 					
 					<article id="post-not-found">
 					    <header>
-					    	<h1><?php _e("No Posts Yet", "bonestheme"); ?></h1>
+					    	<h1><?php _e("No he encontrado nada", "bonestheme"); ?></h1>
 					    </header>
 					    <section class="post_content">
-					    	<p><?php _e("Sorry, What you were looking for is not here.", "bonestheme"); ?></p>
+					    	<p><?php _e("Lo siento, pero sea lo que sea lo que estés buscando, no lo encuentro.", "bonestheme"); ?></p>
 					    </section>
 					    <footer>
 					    </footer>

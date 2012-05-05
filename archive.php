@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+﻿<?php get_header(); ?>
 			
 			<div id="content" class="clearfix row-fluid">
 			
@@ -7,27 +7,27 @@
 					<div class="page-header">
 					<?php if (is_category()) { ?>
 						<h1 class="archive_title h2">
-							<span><?php _e("Posts Categorized:", "bonestheme"); ?></span> <?php single_cat_title(); ?>
+							<span><?php _e("Posts de la categoría", "bonestheme"); ?></span> <?php single_cat_title(); ?>
 						</h1>
 					<?php } elseif (is_tag()) { ?> 
 						<h1 class="archive_title h2">
-							<span><?php _e("Posts Tagged:", "bonestheme"); ?></span> <?php single_tag_title(); ?>
+							<span><?php _e("Posts etiquetados como", "bonestheme"); ?></span> <?php single_tag_title(); ?>
 						</h1>
 					<?php } elseif (is_author()) { ?>
 						<h1 class="archive_title h2">
-							<span><?php _e("Posts By:", "bonestheme"); ?></span> <?php get_the_author_meta('display_name'); ?>
+							<span><?php _e("Posts escritos por", "bonestheme"); ?></span> <?php get_the_author_meta('display_name'); ?>
 						</h1>
 					<?php } elseif (is_day()) { ?>
 						<h1 class="archive_title h2">
-							<span><?php _e("Daily Archives:", "bonestheme"); ?></span> <?php the_time('l, F j, Y'); ?>
+							<span><?php _e("Posts del", "bonestheme"); ?></span> <?php the_time('l, F j, Y'); ?>
 						</h1>
 					<?php } elseif (is_month()) { ?>
 					    <h1 class="archive_title h2">
-					    	<span><?php _e("Monthly Archives:", "bonestheme"); ?>:</span> <?php the_time('F Y'); ?>
+					    	<span><?php _e("Posts de", "bonestheme"); ?></span> <?php the_time('F Y'); ?>
 					    </h1>
 					<?php } elseif (is_year()) { ?>
 					    <h1 class="archive_title h2">
-					    	<span><?php _e("Yearly Archives:", "bonestheme"); ?>:</span> <?php the_time('Y'); ?>
+					    	<span><?php _e("Post del", "bonestheme"); ?></span> <?php the_time('Y'); ?>
 					    </h1>
 					<?php } ?>
 					</div>
@@ -68,8 +68,8 @@
 					<?php } else { // if it is disabled, display regular wp prev & next links ?>
 						<nav class="wp-prev-next">
 							<ul class="clearfix">
-								<li class="prev-link"><?php next_posts_link(_e('&laquo; Older Entries', "bonestheme")) ?></li>
-								<li class="next-link"><?php previous_posts_link(_e('Newer Entries &raquo;', "bonestheme")) ?></li>
+								<li class="prev-link"><?php next_posts_link(_e('&laquo; Anteriores', "bonestheme")) ?></li>
+								<li class="next-link"><?php previous_posts_link(_e('Siguientes &raquo;', "bonestheme")) ?></li>
 							</ul>
 						</nav>
 					<?php } ?>
@@ -79,10 +79,10 @@
 					
 					<article id="post-not-found">
 					    <header>
-					    	<h1><?php _e("No Posts Yet", "bonestheme"); ?></h1>
+					    	<h1><?php _e("No he encontrado nada", "bonestheme"); ?></h1>
 					    </header>
 					    <section class="post_content">
-					    	<p><?php _e("Sorry, What you were looking for is not here.", "bonestheme"); ?></p>
+					    	<p><?php _e("Lo siento, pero sea lo que sea lo que estés buscando, no lo encuentro.", "bonestheme"); ?></p>
 					    </section>
 					    <footer>
 					    </footer>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
 Template Name: Full Width Page
 */
@@ -41,10 +41,10 @@ Template Name: Full Width Page
 					
 					<article id="post-not-found">
 					    <header>
-					    	<h1><?php _e("Not Found", "bonestheme"); ?></h1>
+					    	<h1><?php _e("No he encontrado nada", "bonestheme"); ?></h1>
 					    </header>
 					    <section class="post_content">
-					    	<p><?php _e("Sorry, but the requested resource was not found on this site.", "bonestheme"); ?></p>
+					    	<p><?php _e("Lo siento, pero sea lo que sea lo que estés buscando, no lo encuentro.", "bonestheme"); ?></p>
 					    </section>
 					    <footer>
 					    </footer>
