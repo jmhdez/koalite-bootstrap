@@ -234,15 +234,11 @@
 	
 		<div class="container-fluid">
 			
-			<style>
-				.blog-header h1 {
-					font-size: 48px;
-				}
-			</style>
 			
 			<header class="row-fluid blog-header">
 				<a href="<?php echo home_url(); ?>/">
-					<h1>Koalite <small>El c&oacute;digo importa, pero el contexto m&aacute;s</small></h1>
+					<h1><?php bloginfo('name'); ?></h1>
+					<p class="tagline"><?php bloginfo('description'); ?></p>
 				</a>
 				<hr>
 			</header>

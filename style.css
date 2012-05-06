@@ -625,6 +625,27 @@ div[id^="attachment"] a, .trackable_sharing a {
 	display: none;
 } 
 
+/* Cabecera */
+.blog-header {
+	background: top left no-repeat url(img/logo.png);
+}
+
+.blog-header h1 {
+	font-size: 64px;
+	color: #222;
+	text-shadow: 3px 3px 2px rgba(0,0,0,0.2);
+	margin-top: 4px;
+	margin-left: 180px;
+}
+
+.blog-header .tagline {
+	margin-top: 12px;
+	font-size: 20px;
+	color: #888;
+	font-weight: 500;
+	margin-left: 180px;
+}
+
 /* Alineado de imágenes (deshabilitado para móviles) */
 @media only screen and (min-width: 481px) {
 	.wp-caption.alignleft {
