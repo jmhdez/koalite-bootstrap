@@ -621,11 +621,11 @@ div[id^="attachment"] a, .trackable_sharing a {
 
 
 /* Configuro los trackbacks/pingbacks para que no muestren el texto del enlace */
-.pingback .comment-text h4:before {
+.pingback .comment-text h4:before, .trackback .comment-text h4:before  {
 	content: "Pingback: ";
 	display: block;
 } 
-.pingback .comment-text p {
+.pingback .comment-text p, .trackback .comment-text p {
 	display: none;
 } 
 
