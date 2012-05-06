@@ -16,7 +16,7 @@
 					</nav>
 					
 					<p class="attribution">
-						&copy; <?php echo date("Y") ?> Juan M. Hern&aacute;ndez | powered by <a href="http://wordpress.org/">WordPress</a> | Theme forked from <a href="http://320press.com/wpbs/">WordPress Bootstrap</a> | <a href="<?php bloginfo('rss2_url'); ?>">Feed RSS</a>.
+						&copy; <?php echo date("Y") ?> Juan M. Hern&aacute;ndez | powered by <a href="http://wordpress.org/">WordPress</a> | Custom theme <a href="https://github.com/jmhdez/koalite-bootstrap">forked from WordPress Bootstrap</a> | <a href="<?php bloginfo('rss2_url'); ?>">Feed RSS</a>.
 					</p>
 					
 					<p> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
