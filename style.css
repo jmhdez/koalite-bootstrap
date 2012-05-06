@@ -635,6 +635,7 @@ div[id^="attachment"] a, .trackable_sharing a {
 .blog-header {
 	background: top left no-repeat url(img/logo.png);
 	border-bottom: 1px solid #ddd;
+	padding-bottom: 15px;
 }
 
 .blog-header h1 {
