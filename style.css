@@ -601,11 +601,15 @@ a {
 	/* Remarco un poco los enlaces en los cuerpos de los posts */
 	border-bottom: 1px dotted #a02;
 }
-
 a:hover {
 	color: #d02;
 	text-decoration: none;
 	border-bottom: 1px solid #d02;
+}
+
+div[id^="attachment"] a, .trackable_sharing a {
+	/* ... pero quito el borde a los enlaces de las imágenes y otras cosillas*/
+	border: none;
 }
 
 /* Los títulos de los posts no los quiero en rojo */
@@ -613,6 +617,8 @@ a:hover {
 	color: #444;
 	border-bottom: none;
 }
+
+
 
 /* Configuro los trackbacks/pingbacks para que no muestren el texto del enlace */
 .pingback .comment-text h4:before {
