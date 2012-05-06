@@ -646,6 +646,10 @@ div[id^="attachment"] a, .trackable_sharing a {
 	margin-left: 180px;
 }
 
+.blog-header hr {
+	border-bottom-color: #eee;
+}
+
 /* Alineado de imágenes (deshabilitado para móviles) */
 @media only screen and (min-width: 481px) {
 	.wp-caption.alignleft {
