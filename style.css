@@ -532,8 +532,6 @@ blockquote.pull-left{
 		width: 210px;
 	}
 	
-
-	
 	.comment .vcard .comment-text{
 		padding-left: 0;
 		padding-right: 0;
@@ -618,8 +616,6 @@ div[id^="attachment"] a, .trackable_sharing a {
 	border-bottom: none;
 }
 
-
-
 /* Configuro los trackbacks/pingbacks para que no muestren el texto del enlace */
 .pingback .comment-text h4:before, .trackback .comment-text h4:before  {
 	content: "Pingback: ";
@@ -628,6 +624,33 @@ div[id^="attachment"] a, .trackable_sharing a {
 .pingback .comment-text p, .trackback .comment-text p {
 	display: none;
 } 
+
+/* Alineado de imágenes (deshabilitado para móviles) */
+@media only screen and (min-width: 481px) {
+	.wp-caption.alignleft {
+		display: inline;
+		float: left;
+		margin-right: 20px;
+		margin-top: 4px;
+	}
+	.wp-caption.alignright {
+		display: inline;
+		float: right;
+		margin-left: 20px;
+		margin-top: 4px;
+	}
+	.wp-caption.aligncenter {
+		clear: both;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.wp-caption.alignleft,
+	.wp-caption.alignright,
+	.wp-caption.aligncenter {
+		margin-bottom: 10px;
+	}
+}
 
 /* Formato especial para botones */
 .btn-koalite, 
