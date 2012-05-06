@@ -240,6 +240,5 @@
 					<h1><?php bloginfo('name'); ?></h1>
 					<p class="tagline"><?php bloginfo('description'); ?></p>
 				</a>
-				<hr>
 			</header>
 		
