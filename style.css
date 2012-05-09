@@ -691,6 +691,14 @@ div[id^="attachment"] a, .trackable_sharing a {
 	}
 }
 
+.related-posts {
+	padding-top: 30px;
+}
+
+.related-posts p {
+	font-size: 16px;
+}
+
 /* Formato especial para botones */
 .btn-koalite, 
 .btn-koalite:hover { 
