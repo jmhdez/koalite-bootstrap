@@ -318,7 +318,7 @@ ol.commentlist li{
 }
 
 #comment{
-	width: 270px;
+	min-height: 120px;
 }
 
 /* specific post-type styles */
