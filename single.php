@@ -31,10 +31,10 @@
 						</section> <!-- end article section -->
 						
 						<footer>
-
-							<hr>
 							
 							<?php bootstrap_tags() ?>
+							
+							<hr>
 							
 							<div class="row-fluid">
 								<div class="span6">

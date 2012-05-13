@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
 Author: Eddie Machado
 URL: htp://themble.com/bones/
@@ -396,7 +396,7 @@ function bootstrap_tags() {
 	$the_tags = get_the_tags();
 							
 	if ($the_tags) {
-		echo "<p class='tags'>" . "M&aacute;s posts sobre... ";
+		echo "<div class='tags'><p><span class='tags-header'><strong>Más sobre:</strong></span> ";
 
 		foreach (get_the_tags() as $tag) {
 			echo "<a class='{$tag->slug} label' title='" . ucwords($tag->name)
@@ -404,7 +404,7 @@ function bootstrap_tags() {
 				. "{$tag->name}</a>\n";
 		}
 		
-		echo "</p>";
+		echo "</p></div>";
 	}
 }
 ?>

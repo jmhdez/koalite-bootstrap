@@ -726,3 +726,11 @@ div[id^="attachment"] a, .trackable_sharing a {
 .btn-koalite[disabled] { 
 	background-color: #85001B; 
 }
+
+/* Formato de cosas varias del pie de cada post */
+.trackable_sharing img { margin-top: -5px; border: 0px;}
+.trackable_sharing_text, .tags-header { display: inline; font-size: 16px; margin-right: 20px; color: #666; }
+.trackable_sharing { margin-top: 30px; }
+.tags { margin-top: 10px; }
+.postmetadata { margin-top: 20px; }
+

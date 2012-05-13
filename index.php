@@ -41,10 +41,10 @@
 						</section> <!-- end article section -->
 						
 						<footer>
+							<?php bootstrap_tags(); ?>
+							
 							<p class="postmetadata"><?php edit_post_link('Edit', '', ' | '); ?>  
 							<?php comments_popup_link('Añadir comentario', '1 comentario &raquo;', '% comenarios &raquo;', 'btn btn-koalite'); ?></p>
-							
-							<?php bootstrap_tags(); ?>
 						</footer> <!-- end article footer -->
 					
 					</article> <!-- end article -->
