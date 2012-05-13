@@ -691,14 +691,6 @@ div[id^="attachment"] a, .trackable_sharing a {
 	}
 }
 
-.related-posts {
-	padding-top: 30px;
-}
-
-.related-posts p {
-	font-size: 16px;
-}
-
 /* Formato especial para botones */
 .btn-koalite, 
 .btn-koalite:hover { 
@@ -728,9 +720,33 @@ div[id^="attachment"] a, .trackable_sharing a {
 }
 
 /* Formato de cosas varias del pie de cada post */
-.trackable_sharing img { margin-top: -5px; border: 0px;}
-.trackable_sharing_text, .tags-header { display: inline; font-size: 16px; margin-right: 20px; color: #666; }
-.trackable_sharing { margin-top: 30px; }
-.tags { margin-top: 10px; }
-.postmetadata { margin-top: 20px; }
+.trackable_sharing img { 
+	margin-top: -5px; 
+	border: 0px;
+}
 
+.trackable_sharing_text, .tags-header, .related-posts p { 
+	font-size: 16px; 
+	margin-right: 20px; 
+	color: #666; 
+}
+
+.trackable_sharing_text {
+	display: inline;
+}
+
+.trackable_sharing { 
+	margin-top: 30px; 
+}
+
+.tags, .related-posts { 
+	margin-top: 10px; 
+}
+
+.postmetadata { 
+	margin-top: 20px; 
+}
+
+.related-posts ol li {
+	margin-left: 25px;
+}

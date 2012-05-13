@@ -34,6 +34,8 @@
 							
 							<?php bootstrap_tags() ?>
 							
+							<?php related_posts() ?>
+							
 							<hr>
 							
 							<div class="row-fluid">
