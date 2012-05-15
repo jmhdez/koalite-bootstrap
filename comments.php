@@ -116,7 +116,7 @@ The comments page for Bones
 			  <label for="url"><?php _e("Página Web","bonestheme"); ?></label>
 			  <div class="input-prepend">
 			  <span class="add-on"><i class="icon-home"></i></span>
-			  	<input type="url" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" placeholder="<?php _e("Tu web","bonestheme"); ?>" tabindex="3" />
+			  	<input type="text" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" placeholder="<?php _e("Tu web","bonestheme"); ?>" tabindex="3" />
 			  </div>
 		  	</div>
 		</li>
