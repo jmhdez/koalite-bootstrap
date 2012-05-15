@@ -102,11 +102,10 @@ The comments page for Bones
 		
 		<li>
 			<div class="control-group">
-			  <label for="email"><?php _e("Email","bonestheme"); ?> <?php if ($req) echo "(obligatorio)"; ?></label>
+			  <label for="email"><?php _e("Email","bonestheme"); ?> <?php if ($req) echo "(obligatorio, no será publicado)"; ?></label>
 			  <div class="input-prepend">
 			  	<span class="add-on"><i class="icon-envelope"></i></span>
 			  	<input type="email" name="email" id="email" value="<?php echo esc_attr($comment_author_email); ?>" placeholder="<?php _e("Tu email","bonestheme"); ?>" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> />
-			  	<span class="help-inline">(<?php _e("no será publicado","bonestheme"); ?>)</span>
 			  </div>
 		  	</div>
 		</li>
@@ -119,6 +118,27 @@ The comments page for Bones
 			  	<input type="text" name="url" id="url" value="<?php echo esc_attr($comment_author_url); ?>" placeholder="<?php _e("Tu web","bonestheme"); ?>" tabindex="3" />
 			  </div>
 		  	</div>
+		</li>
+		<li>
+			<!-- Inserto manualmente el código de plugin antispam G.A.S.P para poder usarlo con este tema -->
+			<div class="control-group">
+				<label class="checkbox">
+				</label>
+			</div>
+			<input type="hidden" id="gasp_email" name="gasp_email" value="" />
+			<script type="text/javascript">
+				
+				$('label.checkbox').html('<input type="checkbox" name="gasp_checkbox" id="gasp_checkbox"> Marca este check para demostrar que no eres un robot');
+				
+				$('#commentform').on('submit', function() {
+					if ($('#gasp_checkbox').is(':checked')) 
+						return true;
+						
+					alert("Tienes que marcar el check que hay encima de tu comentario o pensaré que eres un robot y no te dejaré enviar el comentario. Lo sé, es un incordio, agradéceselo a los spammers del mundo.");
+				
+					return false;
+				});
+			</script>
 		</li>
 		
 	</ul>
