@@ -546,11 +546,14 @@ blockquote.pull-left{
 
 /*  Added to keep SyntaxHighlighter working*/
 code {
-	border: none;
-	color: #333;
-	font-size: 14px;
-	display: inline;
-	font-family: Consolas, 'Lucida Console', Courier New
+    border: medium none;
+    color: #333333;
+    display: inline;
+    font-family: Consolas, Lucida Console, Courier New ;
+    font-size: 14px;
+    background: none;
+    padding: 0;
+    margin: 0;
 }
 
 td.code .container:before, td.code .container:after {
