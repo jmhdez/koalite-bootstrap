@@ -210,6 +210,8 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-responsive.min.css">
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 		
+		<link href="<?php echo home_url(); ?>/feed" rel="alternate" type="application/rss+xml" title="Subscribe to RSS feed" />
+		
 		<?php 
 
 			// check wp user level
