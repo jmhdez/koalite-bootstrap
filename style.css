@@ -608,6 +608,7 @@ a {
 	/* Remarco un poco los enlaces en los cuerpos de los posts */
 	border-bottom: 1px dotted #a02;
 }
+
 a:hover {
 	color: #d02;
 	text-decoration: none;
@@ -616,6 +617,10 @@ a:hover {
 
 div[id^="attachment"] a, .trackable_sharing a {
 	/* ... pero quito el borde a los enlaces de las imágenes y otras cosillas*/
+	border: none;
+}
+
+a.no-border, a:hover.no-border {
 	border: none;
 }
 
