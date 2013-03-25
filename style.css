@@ -758,3 +758,11 @@ a.no-border, a:hover.no-border {
 .related-posts ol li {
 	margin-left: 25px;
 }
+
+.sidebar {
+	opacity: .6;
+}
+
+.sidebar:hover {
+	opacity: 1;
+}
