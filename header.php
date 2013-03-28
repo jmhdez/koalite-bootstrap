@@ -225,8 +225,26 @@
 	
 	<body <?php body_class(); ?>>
 	
+
 		<div class="container-fluid">
-			
+		
+			<div class="row-fluid">
+				<ul class="inline">
+					<li>
+						<a href="<?php echo home_url(); ?>/">Inicio</a>
+					</li>
+					<li>
+						<a href="">Archivo</a>
+					</li>
+					<li>
+						<a href="">Quién soy</a>
+					</li>
+					<li>
+						<a href="">Buscar</a>
+					</li>
+				</ul>
+			</div>
+		
 			
 			<header class="row-fluid blog-header">
 				<a href="<?php echo home_url(); ?>/">
