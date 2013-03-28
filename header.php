@@ -225,27 +225,24 @@
 	
 	<body <?php body_class(); ?>>
 	
-
-		<div class="container-fluid">
-		
-			<div class="row-fluid">
-				<ul class="inline">
-					<li>
-						<a href="<?php echo home_url(); ?>/">Inicio</a>
-					</li>
-					<li>
-						<a href="">Archivo</a>
-					</li>
-					<li>
-						<a href="">Quién soy</a>
-					</li>
-					<li>
-						<a href="">Buscar</a>
-					</li>
-				</ul>
+		<div class="navbar navbar-fixed-top navbar-inverse">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<a class="brand" href="<?php echo home_url();?>/">Inicio</a>
+					<ul class="nav">
+						<li><a href="#">Archivo</a></li>
+						<li><a href="#">Quién soy</a></li>
+					</ul>
+					<form class="navbar-search pull-right" action="<?php echo home_url( '/' ); ?>" method="get">
+						<input type="text" class="search-query" name="s" id="search" placeholder="<?php _e("Buscar","bonestheme"); ?>" value="<?php the_search_query(); ?>">
+					</form>
+				</div>
 			</div>
-		
-			
+		</div>
+	
+	
+		<div class="container-fluid">
+					
 			<header class="row-fluid blog-header">
 				<a href="<?php echo home_url(); ?>/">
 					<h1><?php bloginfo('name'); ?></h1>
