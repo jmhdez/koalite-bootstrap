@@ -243,7 +243,7 @@
 	
 		<div class="container-fluid">
 					
-			<header class="row blog-header">
+			<header class="row-fluid blog-header">
 				<a href="<?php echo home_url(); ?>/">
 					<h1><?php bloginfo('name'); ?></h1>
 					<p class="tagline"><?php bloginfo('description'); ?></p>

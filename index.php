@@ -17,7 +17,7 @@
 				}
 			?>
 			
-			<div id="content" class="clearfix row">
+			<div id="content" class="clearfix row-fluid">
 			
 				<div id="main" class="span12 clearfix" role="main">
 

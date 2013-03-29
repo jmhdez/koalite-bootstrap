@@ -476,7 +476,7 @@ blockquote.pull-left{
 	}
 	
 	.container-fluid{
-		max-width: 1170px;
+		max-width: 900px;
 		margin: 0 auto;
 		padding-left: 20px;
 		padding-right: 20px;
@@ -644,6 +644,7 @@ a.no-border, a:hover.no-border {
 	background: top left no-repeat url(img/logo.png);
 	border-bottom: 1px solid #ddd;
 	padding-bottom: 15px;
+	margin-top: 35px;
 }
 
 .blog-header h1 {
