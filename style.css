@@ -574,9 +574,25 @@ body, h1, h2, h3, h4, h5, h6, p, li {
 	font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
+h1 {
+	font-size: 34px;
+}
+
+h1 small {
+	font-size: 14px;
+}
+
 p, li {
  line-height: 140%;
  font-size: 16px;
+}
+
+p, pre, ul {
+ margin-bottom: 24px;
+}
+
+pre {
+	margin-top: 12px;
 }
 
 .aligncenter {
@@ -604,6 +620,11 @@ a {
 	text-decoration: none;
 }
 
+p > strong, li > strong {
+	font-weight: 600;
+	color: #404040
+}
+
 .post_content a {
 	/* Remarco un poco los enlaces en los cuerpos de los posts */
 	border-bottom: 1px dotted #EF8B10;
@@ -626,7 +647,7 @@ a.no-border, a:hover.no-border {
 
 /* Los títulos de los posts no los quiero en rojo */
 .post h1 a[rel="bookmark"], .post h1 a[rel="bookmark"]:hover {
-	color: #444;
+	color: #505050;
 	border-bottom: none;
 }
 
