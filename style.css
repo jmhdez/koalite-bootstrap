@@ -616,7 +616,7 @@ section.post_content h3 {
 }
 
 a {
-	color: #EF8B10;
+	color: #D35400;
 	text-decoration: none;
 }
 
@@ -627,13 +627,13 @@ p > strong, li > strong {
 
 .post_content a {
 	/* Remarco un poco los enlaces en los cuerpos de los posts */
-	border-bottom: 1px dotted #EF8B10;
+	border-bottom: 1px dotted #e67e22;
 }
 
 a:hover {
-	color: #FFC300;
+	color: #e67e22;
 	text-decoration: none;
-	border-bottom: 1px solid #FFC300;
+	border-bottom: 1px solid #e67e22;
 }
 
 div[id^="attachment"] a, .trackable_sharing a {

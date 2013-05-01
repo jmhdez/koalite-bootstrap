@@ -230,7 +230,7 @@
 				<div class="container-fluid">
 					<a class="brand" href="<?php echo home_url();?>/">Inicio</a>
 					<ul class="nav">
-						<li><a href="#">Archivo</a></li>
+						<li><a href="http://test-env.koalite.com/?page_id=1813">Archivo</a></li>
 						<li><a href="#">Quién soy</a></li>
 					</ul>
 					<form class="navbar-search pull-right" action="<?php echo home_url( '/' ); ?>" method="get">
