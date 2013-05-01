@@ -722,31 +722,30 @@ a.no-border, a:hover.no-border {
 }
 
 /* Formato especial para botones */
-.btn-koalite, 
-.btn-koalite:hover { 
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); 
-    color: #ffffff; 
-} 
-.btn-koalite { 
-	background-color: #AA0022; 
-	background-image: -moz-linear-gradient(top, #AA0022, #85001B); 
-	background-image: -ms-linear-gradient(top, #AA0022, #85001B); 
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#AA0022), to(#85001B)); 
-	background-image: -webkit-linear-gradient(top, #AA0022, #85001B); 
-	background-image: -o-linear-gradient(top, #AA0022, #85001B); 
-	background-image: linear-gradient(top, #AA0022, #85001B); 
-	background-repeat: repeat-x; 
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#AA0022', endColorstr='#85001B', GradientType=0); 
-	border-color: #85001B #85001B #000000; 
-	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); 
-	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); 
-} 
-.btn-koalite:hover, 
-.btn-koalite:active, 
-.btn-koalite.active, 
-.btn-koalite.disabled, 
-.btn-koalite[disabled] { 
-	background-color: #85001B; 
+.btn-koalite {
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #D35400;
+	*background-color: #D35400;
+	background-image: -moz-linear-gradient(top, #E67E22, #D35400);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E67E22), to(#D35400));
+	background-image: -webkit-linear-gradient(top, #E67E22, #D35400);
+	background-image: -o-linear-gradient(top, #E67E22, #D35400);
+	background-image: linear-gradient(to bottom, #E67E22, #D35400);
+	background-repeat: repeat-x;
+	border-color: #D35400;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E67E22', endColorstr='#D35400', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-koalite:hover,
+.btn-koalite:active,
+.btn-koalite.active,
+.btn-koalite.disabled,
+.btn-koalite[disabled] {
+	color: #FFFFFF;
+	background-color: #D35400;
+	*background-color: #003bb3;
 }
 
 /* Formato de cosas varias del pie de cada post */
