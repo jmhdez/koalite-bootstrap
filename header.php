@@ -241,11 +241,11 @@
 						<li><a href="#">Quién soy</a></li>
 					</ul>
 					<div class="social-icons pull-right">
-						<a href="http://github.com/jmhdez" target="_blank">
-							<img src="/wp-content/themes/koalite-bootstrap/img/github-32-black.png" alt="Github" title="Proyectos en github"/>
-						</a>
 						<a href="http://twitter.com/gulnor" target="_blank">
 							<img src="/wp-content/themes/koalite-bootstrap/img/twitter-32-black.png" alt="Twitter" title="Sígueme en twitter"/>
+						</a>
+						<a href="http://github.com/jmhdez" target="_blank">
+							<img src="/wp-content/themes/koalite-bootstrap/img/github-32-black.png" alt="Github" title="Proyectos en github"/>
 						</a>
 						<a href="mailto:juan.hernandez.arroyo@gmail.com" target="_blank">
 							<img src="/wp-content/themes/koalite-bootstrap/img/email-32-black.png" alt="Email" title="Contacta por email"/>
