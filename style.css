@@ -679,20 +679,22 @@ a.no-border, a:hover.no-border {
 
 /* Ajustes para el navbar-fixed, que al no ser collapsible se rompe */
 
-@media only screen and (max-width: 480px) {
-	.navbar-fixed-top {
-		position: static;
-	}
-
-	body {
-		padding-top: 0;
-	}
-}
-
 @media only screen and (max-width: 767px) {
 	.navbar-fixed-top {
 		margin-left: 0;
 		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.navbar-fixed-top {
+		position: static;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
+	body {
+		padding-top: 0;
 	}
 }
 
