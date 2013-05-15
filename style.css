@@ -75,6 +75,11 @@ input, textarea, select, .uneditable-input {
 	padding-left: 0;
 }
 
+.social-icons {
+	float: left;
+	padding-top: 4px;
+}
+
 #s{
 	width: 100px;
 }
