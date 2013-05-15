@@ -563,7 +563,8 @@ td.code .container:before, td.code .container:after {
 
 /* Custom formatting for koalite.com */
 body, h1, h2, h3, h4, h5, h6, p, li {
-	font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif
+	font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #505050;
 }
 
 h1 {

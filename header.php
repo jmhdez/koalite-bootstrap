@@ -40,14 +40,12 @@
 		<!-- end of wordpress head -->
 		
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
-		
+	
 		<style type="text/css">
 		body {
 			padding: 40px;
 		}
 		</style>
-
-		
 		
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-responsive.min.css">
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
