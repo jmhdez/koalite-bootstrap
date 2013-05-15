@@ -677,6 +677,8 @@ a.no-border, a:hover.no-border {
 	margin-left: 190px;
 }
 
+/* Ajustes para el navbar-fixed, que al no ser collapsible se rompe */
+
 @media only screen and (max-width: 480px) {
 	.navbar-fixed-top {
 		position: static;
@@ -684,6 +686,13 @@ a.no-border, a:hover.no-border {
 
 	body {
 		padding-top: 0;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-fixed-top {
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 
