@@ -100,6 +100,13 @@
 				'	
 				;
 			}
+			else {
+				$theme_options_styles .= '
+				body {
+					padding-top: 40px;
+				}
+				';
+			}
 			
 			$topbar_bg_color = of_get_option('top_nav_bg_color');
 			if ($topbar_bg_color) {

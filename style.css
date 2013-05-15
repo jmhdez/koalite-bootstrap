@@ -54,10 +54,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 
 /* layout */
 
-body{
-	padding-top: 0;
-}
-
 .nav-container{
 	padding-left: 0;
 	padding-right: 0;
@@ -464,16 +460,7 @@ blockquote.pull-left{
 	text-decoration: underline;
 }
 
-@media only screen and (max-width: 940px) {
-	body {
-		padding-top: 20px;
-	}
-}
-
 @media only screen and (min-width: 940px) {
-	body{
-		padding-top: 40px;
-	}
 	
 	.container-fluid{
 		max-width: 900px;
