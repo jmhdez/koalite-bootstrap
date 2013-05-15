@@ -678,6 +678,26 @@ a.no-border, a:hover.no-border {
 }
 
 @media only screen and (max-width: 480px) {
+	.navbar-fixed-top {
+		position: static;
+	}
+
+	body {
+		padding-top: 0;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	.navbar-fixed-top {
+		position: fixed;
+	}
+
+	body {
+		padding-top: 40px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
 	.blog-header {
 		background: none;
 	}
