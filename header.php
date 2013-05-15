@@ -240,7 +240,7 @@
 						<li><a href="http://test-env.koalite.com/?page_id=1813">Archivo</a></li>
 						<li><a href="#">Quién soy</a></li>
 					</ul>
-					<div class="social-icons">
+					<div class="social-icons pull-right">
 						<a href="http://github.com/jmhdez" target="_blank">
 							<img src="/wp-content/themes/koalite-bootstrap/img/github-32-black.png" alt="Github" title="Proyectos en github"/>
 						</a>
@@ -254,9 +254,6 @@
 							<img src="/wp-content/themes/koalite-bootstrap/img/rss-32-black.png" alt="RSS" title="Suscríbete a este blog"/>
 						</a>
 					</div>
-					<form class="navbar-search pull-right" action="<?php echo home_url( '/' ); ?>" method="get">
-						<input type="text" class="search-query" name="s" id="search" placeholder="<?php _e("Buscar","bonestheme"); ?>" value="<?php the_search_query(); ?>">
-					</form>
 				</div>
 			</div>
 		</div>
