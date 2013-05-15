@@ -58,13 +58,13 @@
 	
 	<body <?php body_class(); ?>>
 	
-		<div class="navbar navbar-fixed-top navbar-inverse">
+		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
 				<div class="container-fluid">
-					<a class="brand" href="<?php echo home_url();?>/">Inicio</a>
 					<ul class="nav">
-						<li><a href="http://test-env.koalite.com/?page_id=1813">Archivo</a></li>
-						<li><a href="#">Quién soy</a></li>
+						<li><a href="/" class="brand">Inicio</a></li>
+						<li><a href="http://test-env.koalite.com/?page_id=1813">Otros artículos</a></li>
+						<li><a href="/about">Quién soy</a></li>
 					</ul>
 					<div class="social-icons pull-right">
 						<a href="http://twitter.com/gulnor" target="_blank">

@@ -718,6 +718,35 @@ a.no-border, a:hover.no-border {
 	}
 }
 
+.navbar-inner {
+	background-color: #fff;
+	background-image: none;
+}
+
+.navbar .nav>li>a {
+	color: #000;
+	font-size: 18px;
+	text-shadow: none;
+	font-weight: 400;
+}
+
+.navbar .nav>li>a:hover {
+	color: #E67E22;
+	border-bottom: none;
+}
+
+.navbar .nav>li>a.brand {
+	margin-left: 0;
+	font-size: 18px;
+	font-weight: 800;
+	text-shadow: none;
+}
+
+.navbar-inner {
+	box-shadow: 0 0 4px #ddd;
+	border-bottom: 1px solid #ccc;
+}
+
 /* Alineado de imágenes (deshabilitado para móviles) */
 @media only screen and (min-width: 481px) {
 	.wp-caption.alignleft {
