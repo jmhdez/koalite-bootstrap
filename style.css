@@ -647,7 +647,7 @@ a.no-border, a:hover.no-border {
 
 /* Los títulos de los posts no los quiero en rojo */
 .post h1 a[rel="bookmark"], .post h1 a[rel="bookmark"]:hover {
-	color: #505050;
+	color: #404040;
 	border-bottom: none;
 }
 
