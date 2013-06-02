@@ -562,9 +562,15 @@ td.code .container:before, td.code .container:after {
 }
 
 /* Custom formatting for koalite.com */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
 body, h1, h2, h3, h4, h5, h6, p, li {
-	font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color: #505050;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #404040;
+}
+
+body {
+	background-image: url(img/body_bg.jpg);
 }
 
 h1 {
@@ -615,7 +621,7 @@ a {
 
 p > strong, li > strong {
 	font-weight: 600;
-	color: #404040
+	color: #555555;
 }
 
 .post_content a {
