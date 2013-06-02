@@ -396,7 +396,7 @@ function bootstrap_tags() {
 	$the_tags = get_the_tags();
 		
 	if ($the_tags) {
-		echo "<div class='tags'><p><span class='tags-header'><strong>Leer otros artículos sobre:</strong></span> ";
+		echo "<div class='tags'><p><span class='tags-header'><strong>Etiquetas:</strong></span> ";
 
     $numItems = count($the_tags);
     $i = 0;

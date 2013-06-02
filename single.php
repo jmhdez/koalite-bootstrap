@@ -31,9 +31,11 @@
 						</section> <!-- end article section -->
 						
 						<footer>
-							
-							<?php bootstrap_tags() ?>
-							
+							<div class='share-buttons'>
+								<span class='share-buttons-header'><strong>Compartir:</strong></span>
+								<?php echo get_jamie_social_code(); ?>
+							</div>
+							<?php bootstrap_tags() ?>							
 							<?php related_posts() ?>
 							
 							<hr>

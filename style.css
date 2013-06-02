@@ -814,7 +814,11 @@ a.no-border, a:hover.no-border {
 	border: 0px;
 }
 
-.trackable_sharing_text, .tags-header, .related-posts p { 
+.share-buttons {
+	margin-top: 16px;
+}
+
+.trackable_sharing_text, .tags-header, .share-buttons-header, .related-posts p { 
 	font-size: 16px; 
 	color: #666; 
 }
@@ -845,4 +849,20 @@ a.no-border, a:hover.no-border {
 
 .sidebar:hover {
 	opacity: 1;
+}
+
+/* Cambios en los estilos de Jamie Social Buttons */
+.martiniboy_social_list {
+    clear: none;
+    display: inline;
+}
+
+ul.jamie_social.martinileft {
+	float: none;
+}
+
+ul.jamie_social li {
+	float: none;
+	margin-left: 5px;
+	vertical-align: middle;
 }
