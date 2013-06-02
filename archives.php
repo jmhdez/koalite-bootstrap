@@ -9,12 +9,23 @@
 	</div>
 
 	<div class="row-fluid">
+
 		<div class="span9">
 			<h3>Posts</h3>
 			<ul id="archives-posts">
-				<?php wp_get_archives('type=postbypost'); ?>
+				<?php
+					global $post;
+					$args = array( 'orderby' => 'post_date', 'order' => 'DESC', 'numberposts' => '10000' );
+					$myposts = get_posts( $args );
+
+					foreach( $myposts as $post ) : setup_postdata($post); ?>
+					<li>
+          	<p><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><br/><small><?php the_date(); ?></small></p>
+        	</li>
+					<?php endforeach; ?>
 			</ul>
 		</div>
+
 		<div class="span3">
 			<h3>Etiquetas</h3>
 			<ul id="archives-tags">
@@ -26,6 +37,7 @@
 				?>
 			</ul>
 		</div>
+
 	</div>
 
 </div>
