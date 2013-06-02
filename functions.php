@@ -394,14 +394,28 @@ add_editor_style('editor-style.css');
 
 function bootstrap_tags() {
 	$the_tags = get_the_tags();
-							
+		
 	if ($the_tags) {
-		echo "<div class='tags'><p><span class='tags-header'><strong>Más sobre:</strong></span> ";
+		echo "<div class='tags'><p><span class='tags-header'><strong>Leer otros artículos sobre:</strong></span> ";
+
+    $numItems = count($the_tags);
+    $i = 0;
 
 		foreach (get_the_tags() as $tag) {
-			echo "<a class='{$tag->slug} label' title='" . ucwords($tag->name)
+
+      ++$i;
+
+      $name = ucwords($tag->name);
+
+			echo "<a class='{$tag->slug}' title='" . ucwords($tag->name)
 				."' href='" .get_tag_link($tag->term_id) . "'>" 
-				. "{$tag->name}</a>\n";
+				. "{$name}</a>";
+
+      if ($i !== $numItems) {
+        echo ", ";
+      }
+
+      echo " \n";
 		}
 		
 		echo "</p></div>";
