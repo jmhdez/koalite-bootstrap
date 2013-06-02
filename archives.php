@@ -1,29 +1,32 @@
-<?php
-/*
-Template Name: Archives
-*/
-get_header(); ?>
+<?php get_header(); ?>
 
-<div id="container">
-	<div id="content" role="main">
+<div id="archives">
 
-		<?php the_post(); ?>
-		<h1 class="entry-title"><?php the_title(); ?></h1>
-		
-		<?php get_search_form(); ?>
-		
-		<h2>Archives by Month:</h2>
-		<ul>
-			<?php wp_get_archives('type=postbypost'); ?>
-		</ul>
-		
-		<h2>Archives by Subject:</h2>
-		<ul>
-			 <?php wp_list_categories(); ?>
-		</ul>
+	<div class="row-fluid">
+		<div class="span12">
+			<?php get_search_form(); ?>
+		</div>
+	</div>
 
-	</div><!-- #content -->
-</div><!-- #container -->
+	<div class="row-fluid">
+		<div class="span9">
+			<h3>Posts</h3>
+			<ul id="archives-posts">
+				<?php wp_get_archives('type=postbypost'); ?>
+			</ul>
+		</div>
+		<div class="span3">
+			<h3>Etiquetas</h3>
+			<ul id="archives-tags">
+				<?php 
+					$tags = get_tags();
+					foreach ($tags as $tag) {
+						echo '<li><a href="' . get_tag_link($tag->term_id) . '" title="Posts sobre ' . $tag->name . '">' . $tag->name . '</a></li>' ;
+					}
+				?>
+			</ul>
+		</div>
+	</div>
 
-<?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>
