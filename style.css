@@ -30,7 +30,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 /* wp-specific classes */
 .wp-caption{
 	
-}
+	}
 
 .wp-caption-text{
 	
@@ -84,7 +84,7 @@ input, textarea, select, .uneditable-input {
 	width: 100px;
 }
 
-#content{
+#content, #archives {
 	padding: 10px 0 0;
 }
 
@@ -609,7 +609,7 @@ pre {
 	font-style: italic;
 }
 
-section.post_content h3 {
+h3 {
 	font-size: 20px;
 	margin-top: 16px;
 	margin-bottom: 24px;
@@ -683,6 +683,14 @@ a.no-border, a:hover.no-border {
 	font-weight: 500;
 	margin-left: 190px;
 }
+
+/* Formato de la página con archivo de posts */
+
+#archives ul {
+	list-style-type: none;
+	margin-left: 0;
+}
+
 
 /* Ajustes para el navbar-fixed, que al no ser collapsible se rompe */
 
