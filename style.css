@@ -751,10 +751,10 @@ a.no-border, a:hover.no-border {
 }
 
 .navbar .nav>li>a {
-	color: #000;
+	color: #555;
 	font-size: 18px;
 	text-shadow: none;
-	font-weight: 400;
+	font-weight: 200;
 }
 
 .navbar .nav>li>a:hover {

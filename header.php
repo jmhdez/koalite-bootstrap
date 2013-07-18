@@ -41,6 +41,7 @@
 		
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap-responsive.min.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/font-awesome.min.css">
 		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 		
 		<link href="<?php echo home_url(); ?>/feed" rel="alternate" type="application/rss+xml" title="Subscribe to RSS feed" />
@@ -62,24 +63,45 @@
 			<div class="navbar-inner">
 				<div class="container-fluid">
 					<ul class="nav">
-						<li><a href="/" class="brand">Inicio</a></li>
-						<li><a href="http://test-env.koalite.com/?page_id=1813">Otros artículos</a></li>
-						<li><a href="/about">Quién soy</a></li>
+						<li>
+							<a href="<?php echo home_url(); ?>/" class="brand">
+								<i class="icon-home"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://test-env.koalite.com/?page_id=1813">
+								<i class="icon-calendar"></i>
+							</a>
+						</li>
+						<li>
+							<a href="/about">
+								<i class="icon-user"></i>
+							</a>
+						</li>
+
 					</ul>
-					<div class="social-icons pull-right">
-						<a href="http://twitter.com/gulnor" target="_blank">
-							<img src="/wp-content/themes/koalite-bootstrap/img/twitter-32-black.png" alt="Twitter" title="Sígueme en twitter"/>
-						</a>
-						<a href="http://github.com/jmhdez" target="_blank">
-							<img src="/wp-content/themes/koalite-bootstrap/img/github-32-black.png" alt="Github" title="Proyectos en github"/>
-						</a>
-						<a href="mailto:juan.hernandez.arroyo@gmail.com" target="_blank">
-							<img src="/wp-content/themes/koalite-bootstrap/img/email-32-black.png" alt="Email" title="Contacta por email"/>
-						</a>
-						<a href="http://blog.koalite.com/feed" target="_blank">
-							<img src="/wp-content/themes/koalite-bootstrap/img/rss-32-black.png" alt="RSS" title="Suscríbete a este blog"/>
-						</a>
-					</div>
+					<ul class="nav pull-right">
+						<li>
+							<a href="http://twitter.com/gulnor" target="_blank">
+								<i class="icon-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://github.com/jmhdez" target="_blank">
+								<i class="icon-github"></i>
+							</a>
+						</li>
+						<li>
+							<a href="mailto:juan.hernandez.arroyo@gmail.com" target="_blank">
+								<i class="icon-envelope-alt"></i>
+							</a>
+						</li>
+						<li>
+							<a href="http://blog.koalite.com/feed" target="_blank">
+								<i class="icon-rss"></i>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
