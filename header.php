@@ -89,8 +89,9 @@
 					
 			<header class="row-fluid blog-header">
 				<a href="<?php echo home_url(); ?>/">
-					<h1><?php bloginfo('name'); ?></h1>
-					<p class="tagline"><?php bloginfo('description'); ?></p>
+					<h1><?php bloginfo('name'); ?>
+						<small class="tagline"><?php bloginfo('description'); ?></small>
+					</h1>
 				</a>
 			</header>
 		
