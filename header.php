@@ -65,17 +65,17 @@
 					<ul class="nav">
 						<li>
 							<a href="<?php echo home_url(); ?>/" class="brand">
-								<i class="icon-home"></i>
+								<i class="icon-home" title="Inicio"></i>
 							</a>
 						</li>
 						<li>
 							<a href="http://test-env.koalite.com/?page_id=1813">
-								<i class="icon-calendar"></i>
+								<i class="icon-calendar" title="Archivos"></i>
 							</a>
 						</li>
 						<li>
 							<a href="/about">
-								<i class="icon-user"></i>
+								<i class="icon-user" title="Quién Soy"></i>
 							</a>
 						</li>
 
@@ -83,22 +83,22 @@
 					<ul class="nav pull-right">
 						<li>
 							<a href="http://twitter.com/gulnor" target="_blank">
-								<i class="icon-twitter"></i>
+								<i class="icon-twitter" title="Sígueme en twitter"></i>
 							</a>
 						</li>
 						<li>
 							<a href="http://github.com/jmhdez" target="_blank">
-								<i class="icon-github"></i>
+								<i class="icon-github" title="Proyectos en GitHub"></i>
 							</a>
 						</li>
 						<li>
 							<a href="mailto:juan.hernandez.arroyo@gmail.com" target="_blank">
-								<i class="icon-envelope-alt"></i>
+								<i class="icon-envelope-alt" title="Contacta por email"></i>
 							</a>
 						</li>
 						<li>
 							<a href="http://blog.koalite.com/feed" target="_blank">
-								<i class="icon-rss"></i>
+								<i class="icon-rss" title="Suscríbete a este blog"></i>
 							</a>
 						</li>
 					</ul>
