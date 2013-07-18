@@ -662,10 +662,11 @@ a.no-border, a:hover.no-border {
 
 /* Cabecera */
 .blog-header {
-	background: top left no-repeat url(img/logo.png);
-	border-bottom: 1px solid #ddd;
+	background: top right no-repeat url(img/logo.png);
+	border-bottom: 1px solid #efefef;
 	padding-bottom: 15px;
 	margin-top: 15px;
+	margin-bottom: 20px;
 }
 
 .blog-header h1 {
@@ -673,13 +674,13 @@ a.no-border, a:hover.no-border {
 	color: #404040;
 	font-weight: 100;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-	margin-top: 4px;
-	margin-left: 190px;
+	margin-top: 0;
+	margin-left: 10px;
 }
 
 .blog-header .tagline {
 	margin-top: 12px;
-	font-size: 28px;
+	font-size: 26px;
 	color: #888;
 	margin-left: 5px;
 	text-shadow: none;
@@ -724,19 +725,29 @@ a.no-border, a:hover.no-border {
 	}
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 	.blog-header {
 		background: none;
 	}
 	
-	.blog-header h1, .blog-header .tagline {
+	.blog-header h1 {
 		margin-left: 0px;
+	}
+}
+
+@media only screen and (min-width: 1px) {
+	/* ñapa para quitar el padding del navbar SIEMPRE */
+	.navbar-fixed-top .navbar-inner {
+		padding-top: 0;
+		padding-bottom: 0;
 	}
 }
 
 .navbar-inner {
 	background-color: #fff;
 	background-image: none;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 .navbar .nav>li>a {
