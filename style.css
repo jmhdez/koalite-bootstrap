@@ -701,20 +701,45 @@ a.no-border, a:hover.no-border {
 		margin-left: 0;
 		margin-right: 0;
 	}
+
+	.blog-header {
+		background: none;
+	}
+	
+	.blog-header h1 {
+		margin-left: 0px;
+	}
 }
 
+/* Teléfonos */
 @media only screen and (max-width: 480px) {
 	.navbar-fixed-top {
 		position: static;
 		margin-left: -20px;
 		margin-right: -20px;
+		margin-bottom: 0px;
 	}
 
-	body {
-		padding-top: 0;
+	.blog-header {
+		margin-bottom: 0;
+	}
+
+	.blog-header h1 {
+		margin-left: 0;
+		font-size: 28px;
+		line-height: 30px;
+	}
+
+	.blog-header h1 .tagline {
+		display: block;
+		font-size: 14px;
+		margin-left: 0px;
+		line-height: 18px;
+		margin-top: 0px;
 	}
 }
 
+/* Tablets en vertical */
 @media only screen and (min-width: 481px) {
 	.navbar-fixed-top {
 		position: fixed;
@@ -722,16 +747,6 @@ a.no-border, a:hover.no-border {
 
 	body {
 		padding-top: 40px;
-	}
-}
-
-@media only screen and (max-width: 768px) {
-	.blog-header {
-		background: none;
-	}
-	
-	.blog-header h1 {
-		margin-left: 0px;
 	}
 }
 
