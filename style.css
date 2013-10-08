@@ -735,6 +735,10 @@ a.no-border, a:hover.no-border {
 }
 
 /* Formato de cosas varias del pie de cada post */
+.martiniboy_social_list  {
+  margin-top: 25px;
+}
+
 .trackable_sharing img { 
 	margin-top: -5px; 
 	border: 0px;
